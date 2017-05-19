@@ -9,59 +9,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.vibhor.githour.Users">
 
-    <TextView
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/users"
+       android:entries="@arrayUsers"
+      android:layout_weight="1"/>
+
+    <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Users Info"
-        android:id="@+id/tv_info"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Enter User 1  Name:"
-        android:id="@+id/tv_username1"
-        android:layout_below="@+id/tv_info"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/et_user1"
-        android:layout_below="@+id/tv_username1"
-        android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/tv_info" />
-
-
+        android:layout_height="wrap_content">
+    </ScrollView>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PROCEED"
-        android:id="@+id/b_next"
+        android:text="GO"
+        android:id="@+id/b_go"
+        android:onClick="getInfo"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="83dp" />
+        android:layout_marginBottom="41dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Enter User 2 Name:"
-        android:id="@+id/tv_user2"
-        android:layout_below="@+id/et_user1"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/et_user2"
-        android:layout_below="@+id/tv_user2"
-        android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/tv_user2" />
-
-</RelativeLayout>
+    </RelativeLayout>
+       
