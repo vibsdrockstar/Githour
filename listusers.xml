@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Githour</string>
+    <string-array name="Users">
+        <item>---Select Users----</item>
+        <item>vibsdrockstar vs Swapnil52</item>
+        <item>sarthakagarwal18 vs Swapnil52</item>
+        <item>anmolvarshney05 vs Swati4star</item>
+        <item>MohitS10 vs naman1901</item>
+        <item>kanmodi vs naman1901</item>
+        <item>shr7 vs sarthakagarwal18</item>
+        <item>IpshitaC vs prachi 1210 </item>
+        <item>mbad0la vs prabhakar267</item>
+        <item>prabhakar267 vs Swati4star </item>
+        <item>sgaggrawal2009 vs shr7 </item>
+        <item>rahulrana95 vs Swapnil52</item>
+        <item>vibsdrockstar vs sarthakagarwal18</item>
+        <item>sgaggrwal2009 vs Swapnil52 </item>
+        <item>mansimarkaur vs prachi 1210</item>
+        <item>prachi 1210 vs mansimarkaur</item>
+    </string-array>
+</resources>
