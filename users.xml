@@ -8,17 +8,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.vibhor.githour.Users">
-
-   <Spinner
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:id="@+id/users"
-       android:entries="@arrayUsers"
-      android:layout_weight="1"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spuser"
+        android:entries="@array/Users"
+        android:layout_alignParentEnd="true" />
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
     </ScrollView>
 
     <Button
@@ -31,5 +31,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="41dp" />
 
-    </RelativeLayout>
-       
+
+
+</RelativeLayout>
