@@ -8,16 +8,16 @@ import android.view.View;
 import android.widget.Spinner;
 
 public class Users extends AppCompatActivity {
-    Spinner spinner;
+    Spinner spuser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_users);
-        spinner =(Spinner) findViewById(R.id.users);
+        spuser =(Spinner) findViewById(R.id.spuser);
     }
-    public void  getDetails(View view){
+    public void  getInfo(View view){
         Intent intent = new Intent(this, Details.class);
-        intent.putExtra("details",spinner.getSelectedItem().toString());
+        intent.putExtra("details",spuser.getSelectedItem().toString());
         startActivity(intent);
     }
 }
